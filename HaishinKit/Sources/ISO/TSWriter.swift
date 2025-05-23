@@ -8,7 +8,7 @@ public final class TSWriter {
     static let defaultPMTPID: UInt16 = 4095
     static let defaultVideoPID: UInt16 = 256
     static let defaultAudioPID: UInt16 = 257
-    static let defaultSegmentDuration: Double = 2
+    static let defaultSegmentDuration: Double = 1
     /// An asynchronous sequence for writing data.
     public var output: AsyncStream<Data> {
         AsyncStream { continuation in
